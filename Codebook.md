@@ -43,6 +43,29 @@ The dataset includes the following files (some of which are currently too large 
 
 'test/y_test.txt': Test labels.
 
+# Label the dataset with descriptive variable names
+
+1 : WALKING
+2 : WALKING_UPSTAIRS
+3 : WALKING_DOWNSTAIRS
+4 : SITTING
+5 : STANDING
+6 : LAYING
+
+# Label the data set with descriptive variable names.
+Acc : Accelerometer
+Gyro : Gyroscope
+BodyBody : Body
+Mag : Magnitude
+^f : Frequency
+tBody : TimeBody
+-mean() : Mean
+-std():STD
+-freq() : Frequency
+angle : Angle
+gravity : Gravity
+
+
 ## The following files are available for the train and test data. Their descriptions are equivalent.
 
 'train/subject_train.txt': Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
