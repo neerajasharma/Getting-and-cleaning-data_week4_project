@@ -46,23 +46,39 @@ The dataset includes the following files (some of which are currently too large 
 # Label the dataset with descriptive variable names
 
 1 : WALKING
+
 2 : WALKING_UPSTAIRS
+
 3 : WALKING_DOWNSTAIRS
+
 4 : SITTING
+
 5 : STANDING
+
 6 : LAYING
 
 # Label the data set with descriptive variable names.
+
 Acc : Accelerometer
+
 Gyro : Gyroscope
+
 BodyBody : Body
+
 Mag : Magnitude
+
 ^f : Frequency
+
 tBody : TimeBody
+
 -mean() : Mean
+
 -std():STD
+
 -freq() : Frequency
+
 angle : Angle
+
 gravity : Gravity
 
 
